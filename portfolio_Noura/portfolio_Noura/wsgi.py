@@ -1,5 +1,5 @@
 """
-WSGI config for what_to_cook project.
+WSGI config for portfolio_Noura project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'what_to_cook.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portfolio_Noura.settings')
 
 application = get_wsgi_application()
