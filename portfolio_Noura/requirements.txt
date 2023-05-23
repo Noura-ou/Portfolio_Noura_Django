@@ -8,5 +8,5 @@ django-multiselectfield==0.1.12
 django-widget-tweaks==1.4.12
 ipykernel
 ipython
-
+pysqlite3
 
