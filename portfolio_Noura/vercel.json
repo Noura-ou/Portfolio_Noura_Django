@@ -11,8 +11,12 @@
     ],
     "routes": [
       {
-        "src": "/static/(.*)",
-        "dest": "/static/$1"
+        "src": "/static/api_home/(.*)",
+        "dest": "/static/api_home/$1"
+      },
+      {
+        "src": "/static/css/(.*)",
+        "dest": "/static/css/$1"
       },
       {
         "src": "/(.*)",
@@ -20,4 +24,5 @@
       }
     ]
   }
+  
   
