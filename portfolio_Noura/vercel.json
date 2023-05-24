@@ -13,7 +13,7 @@
         "src": "portfolio_Noura/build_files.sh",
         "use": "@vercel/static-build",
         "config": {
-          "distDir": "portfolio_Noura"
+          "distDir": "staticfiles_build"
           }
       }
     ],
@@ -29,6 +29,4 @@
     ]
   }
 
-
-  
   
