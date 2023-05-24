@@ -15,7 +15,7 @@ fi
 
 
 if [ -f "$manage_file" ]; then
-    python $manage_file collectstatic --no-input
+    python3 $manage_file collectstatic --no-input
 else
     echo "Le fichier $manage_file n'existe pas dans le répertoire parent."
     exit 1
