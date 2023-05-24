@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     'multiselectfield',
     'crispy_forms',
     'widget_tweaks',
-    'django.contrib.admin',
+   # 'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -83,12 +83,12 @@ WSGI_APPLICATION = 'portfolio_Noura.wsgi.app'
 #         'ENGINE': 'django.db.backends.dummy',
 #     }
 # }
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
- }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+#  }
 
 
 # Password validation
