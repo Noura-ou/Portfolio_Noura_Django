@@ -1,5 +1,7 @@
 # build_files.sh
 
+echo "BUILD START"
+
 requirements_file="../requirements.txt"
 manage_file="../manage.py"
 
@@ -19,3 +21,4 @@ else
     exit 1
 fi
 
+echo "BUILD END"

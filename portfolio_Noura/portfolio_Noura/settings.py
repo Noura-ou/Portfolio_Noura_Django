@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'portfolio_Noura.wsgi.application'
+WSGI_APPLICATION = 'portfolio_Noura.wsgi.app'
 
 
 # Database
