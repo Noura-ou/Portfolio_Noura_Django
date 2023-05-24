@@ -134,7 +134,7 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
 
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'portfolio_Noura/staticfiles_build')
+STATIC_ROOT = os.path.join(BASE_DIR, 'portfolio_Noura')
 
 
 # Default primary key field type

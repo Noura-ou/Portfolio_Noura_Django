@@ -15,6 +15,9 @@ fi
 
 
 if [ -f "$manage_file" ]; then
+    echo "Collecting static files..."
+    python3 $manage_file collectstatic --no-input
+    echo "Static files collected."
     python3 $manage_file collectstatic --no-input
 else
     echo "Le fichier $manage_file n'existe pas dans le répertoire parent."
